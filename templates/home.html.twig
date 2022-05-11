@@ -2,11 +2,19 @@
 
 {# block "title" #}
 {% block title %}
-    Symfony Recipe
+  Symfony Recipe
 {% endblock %}
 
 
 {# block "body" #}
 {% block body %}
-    👋 hello
+  <div class="container mt-4">
+    <div class="jumbotron">
+      <h1 class="display-4">👋 Welcome on Sym-Recipe!</h1>
+      <p class="lead">Sym-Recipe is an application which helps you to create cooking recipe. You will be able to share your recipes with the community.</p>
+      <hr class="my-4">
+      <p>To start, go on the welcome page.</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Inscription</a>
+    </div>
+  </div>
 {% endblock %}
